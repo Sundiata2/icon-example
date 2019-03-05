@@ -4,6 +4,7 @@ import './App.css';
 import FortyFiveDead from './icons/forty-five';
 import PersonIcon from './icons/person';
 import FrontMountain from './icons/mountainIcon';
+import DuoCamera from './icons/duo-camera';
 
 class App extends Component {
   render() {
@@ -20,6 +21,7 @@ class App extends Component {
           */}
           <FortyFiveDead height={45} width={45} color={"#f82020"} />
           <PersonIcon height={16} width={16} color={"#75a22f"} />
+          <DuoCamera height={65} width={65} />
         </header>
       </div>
     );
