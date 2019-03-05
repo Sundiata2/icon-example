@@ -12,3 +12,5 @@ const DuoCamera = (props) => (
     </g>
   </svg>
 );
+
+export default DuoCamera;
